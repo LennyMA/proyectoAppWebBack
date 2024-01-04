@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-mongoose.set('strictQuery', false);
+mongoose.set("strictQuery", false);
 const BookSchema = mongoose.Schema({
   fecha: {
     type: Date,
